@@ -1,0 +1,66 @@
+/* Layout */
+.app { min-height: 100vh; background: #0f0f0f; }
+.topnav { background: #1a1a1a; border-bottom: 1px solid #2a2a2a; display: flex; align-items: center; justify-content: space-between; padding: 0 24px; height: 52px; }
+.brand { font-size: 16px; font-weight: 700; color: #fff; }
+.brand span { color: #378ADD; }
+.brand-sub { font-size: 12px; color: #666; margin-left: 8px; }
+.logout-btn { background: none; border: 1px solid #333; border-radius: 6px; padding: 6px 12px; font-size: 13px; color: #888; cursor: pointer; }
+.logout-btn:hover { background: #222; }
+
+/* Content */
+.content { max-width: 1100px; margin: 0 auto; padding: 24px; }
+
+/* Summary cards */
+.summary-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin-bottom: 24px; }
+.summary-card { background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 12px; padding: 16px; }
+.summary-label { font-size: 11px; color: #666; text-transform: uppercase; letter-spacing: .05em; margin-bottom: 6px; }
+.summary-value { font-size: 26px; font-weight: 600; color: #fff; }
+.summary-sub { font-size: 12px; color: #555; margin-top: 4px; }
+.mrr-value { color: #1D9E75 !important; }
+
+/* Table */
+.section-title { font-size: 14px; font-weight: 600; color: #888; text-transform: uppercase; letter-spacing: .05em; margin-bottom: 12px; }
+.table-wrap { background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 12px; overflow: hidden; margin-bottom: 24px; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th { background: #222; color: #666; font-weight: 500; font-size: 11px; text-transform: uppercase; letter-spacing: .05em; padding: 10px 14px; text-align: left; border-bottom: 1px solid #2a2a2a; }
+td { padding: 12px 14px; border-bottom: 1px solid #1f1f1f; color: #ccc; vertical-align: middle; }
+tr:last-child td { border-bottom: none; }
+tr:hover td { background: #1f1f1f; }
+
+/* Status badges */
+.badge { display: inline-block; font-size: 11px; padding: 3px 8px; border-radius: 10px; font-weight: 500; }
+.badge-trial { background: #1a2a3a; color: #378ADD; }
+.badge-active { background: #0f2a1a; color: #1D9E75; }
+.badge-expired { background: #2a1a1a; color: #E24B4A; }
+.badge-monthly { background: #1a2a1a; color: #5DCAA5; }
+.badge-yearly { background: #1a1a3a; color: #7F77DD; }
+
+/* Metrics */
+.metric-ok { color: #1D9E75; }
+.metric-warn { color: #EF9F27; }
+.metric-bad { color: #E24B4A; }
+.metric-na { color: #444; }
+
+/* Auth */
+.auth-wrap { min-height: 100vh; display: flex; align-items: center; justify-content: center; background: #0f0f0f; }
+.auth-card { background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 16px; padding: 36px; width: 360px; }
+.auth-title { font-size: 22px; font-weight: 700; color: #fff; margin-bottom: 4px; }
+.auth-title span { color: #378ADD; }
+.auth-sub { font-size: 13px; color: #555; margin-bottom: 24px; }
+.field { display: flex; flex-direction: column; gap: 6px; margin-bottom: 14px; }
+.field label { font-size: 12px; color: #666; }
+.field input { background: #222; border: 1px solid #333; border-radius: 8px; padding: 10px 12px; font-size: 14px; color: #fff; outline: none; }
+.field input:focus { border-color: #378ADD; }
+.error-msg { background: #2a1a1a; color: #E24B4A; font-size: 13px; padding: 8px 12px; border-radius: 6px; margin-bottom: 12px; }
+.primary-btn { width: 100%; background: #185FA5; color: #fff; border: none; border-radius: 8px; padding: 11px; font-size: 14px; font-weight: 500; cursor: pointer; }
+.primary-btn:hover { background: #0C447C; }
+.primary-btn:disabled { background: #333; color: #666; cursor: not-allowed; }
+
+/* Loading */
+.loading { text-align: center; padding: 60px; color: #444; font-size: 14px; }
+.refresh-btn { background: #222; border: 1px solid #333; border-radius: 6px; padding: 6px 14px; font-size: 12px; color: #888; cursor: pointer; }
+.refresh-btn:hover { background: #2a2a2a; }
+.topbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+.topbar-title { font-size: 18px; font-weight: 600; color: #fff; }
+.topbar-sub { font-size: 13px; color: #555; margin-top: 2px; }
+.no-data { color: #444; font-style: italic; }
